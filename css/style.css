@@ -5,6 +5,9 @@ body{
 :root{
     --blue-box: #006CFA;
     --green-nested: #00E165;
+    --black-gameboard: #000000;
+    --white-pixel: #ffffff;
+    --green-pixel: #33FF00;
 }
 
 .debug{
@@ -21,4 +24,26 @@ body{
 
 .spacer{
     min-height: 20px;
+}
+
+.gameboard{
+    height: 100vh;
+    background-color: var(--black-gameboard);
+}
+
+.bor-white{
+    border: 1px solid white;
+}
+
+.white{
+    background-color: var(--white-pixel);
+}
+
+.green{
+    background-color: var(--green-pixel);
+}
+
+.pixel{
+    height: 10px;
+    width: 10px;
 }
